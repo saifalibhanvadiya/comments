@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.container {
+  padding: 100px 50px;
+  font-family: roboto;
+}
+.commentheading {
+  font-size: 40px;
+  color: #1e293b;
+}
+.user {
+  color: #1e293b;
+  margin-bottom: 20px;
+}
+.monnetContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 100px 0px 40px;
+}
+.commentbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.input {
+  width: 315px;
+  padding: 10px;
+  margin: 5px 0;
+}
+.countcomment {
+  background-color: #0284c7;
+  color: #ffff;
+  padding: 3px 7px;
+  border-radius: 2px;
+}
+.addcomment {
+  background-color: #0284c7;
+  border: none;
+  color: #ffff;
+  padding: 5px 7px;
+  border-radius: 3px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+.comments {
+  color: #1e293b;
+  font-weight: 500;
+  margin-left: 40px;
+}
+.hr1 {
+  margin-left: 40px;
+  margin-right: 40px;
+}
